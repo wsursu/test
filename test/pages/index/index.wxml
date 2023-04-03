@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<!-- 轮播图 -->
+<!-- 给swiper一个类名，indicator-dots是指示点,autoplay自动切换,interval切换的时间间隔，单位为毫秒,circular滑动衔接-->
+<swiper class="swiper-container" indicator-dots autoplay circular>
+  <!-- 第一张 -->
+  <swiper-item>
+    <view class="item">A</view>
+  </swiper-item>
+  <!-- 第二张 -->
+  <swiper-item>
+    <view class="item">B</view>
+  </swiper-item>
+  <!-- 第三张 -->
+  <swiper-item>
+    <view class="item">C</view>
+  </swiper-item>
+</swiper>

@@ -1,0 +1,55 @@
+/* pages/news/news.wxss */
+/* 给container1做布局 */
+.container1 view{
+  width: 100px;
+  height: 100px;
+  /* 横向居中 */
+  text-align: center;
+  line-height: 100px;
+}
+
+/* :nth-child()为分别选中,view后冒号前不能有空格 */
+.container1 view:nth-child(1){
+  background-color: lightcoral;
+}
+.container1 view:nth-child(2){
+  background-color: lightgreen;
+}
+.container1 view:nth-child(3){
+  background-color:lightskyblue;
+}
+
+.container1 {
+  /* 横向布局 */
+  display: flex;
+  /* 分散布局 */
+  justify-content: space-around;
+}
+
+/* 给cantainer2做布局 */
+.container2 view{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+
+.container2 view:nth-child(1){
+  background-color: lightcoral;
+}
+.container2 view:nth-child(2){
+  background-color: lightgreen;
+}
+.container2 view:nth-child(3){
+  background-color:lightskyblue;
+}
+
+.container2 {
+  /* 添加一个红色边框,高度是块的总高度，宽度是占满 */
+  border: 1px solid red;
+  /* 添加宽度 */
+  width: 100px;
+  /* 限定高度 */
+  height: 130px;
+}

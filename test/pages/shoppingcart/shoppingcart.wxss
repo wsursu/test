@@ -1,0 +1,14 @@
+/* pages/shoppingcart/shoppingcart.wxss */
+view{
+  border:1px solid gray;
+  height: 20px;
+  width: 30px;
+}
+button{
+  width: 10px;
+  height: 30px;
+}
+.picture1{
+  height: 80px;
+  width: 80px;
+}

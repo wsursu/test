@@ -1,0 +1,7 @@
+<!--pages/shoppingcart/shoppingcart.wxml-->
+<!-- 放一张图片 -->
+<image class="picture1" src="/picture/amoxilin.png" mode="heightFix"/>
+<!-- 加一按钮 -->
+<button size="mini" plain bindtap="conutdown">-</button>
+<view class="Count">{{count >= 0 ? count:'0'}}</view>
+<button size="mini" plain bindtap="conutup">+</button>

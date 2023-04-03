@@ -1,0 +1,9 @@
+<!--pages/mine/mine.wxml-->
+<!-- 图片组件 -->
+<image class="up" src="/icon/wmine.png" mode="heightFix"></image>
+
+<!-- 按钮,size="mini"小尺寸,plain镂空 -->
+<button size="mini" plain bindtap="btnTapHandler">登录</button>
+<input value="{{msg}}" bindinput="inputHandler"></input>
+
+

@@ -1,0 +1,12 @@
+/* pages/mine/mine.wxss */
+image{
+  border:1px solid lightslategrey;
+}
+.up{
+  height: 70px;
+  width: 70px;
+}
+input{
+  border: 1px solid gray;
+  border-radius: 3px;
+}
